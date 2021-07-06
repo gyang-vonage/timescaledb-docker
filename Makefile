@@ -82,3 +82,6 @@ clean:
 	docker buildx rm multibuild
 
 .PHONY: default image push push-oss oss multi multi-oss clean all
+
+
+#trigger a build now
